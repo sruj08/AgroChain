@@ -20,7 +20,7 @@
 16. [Maintenance & Scalability](#maintenance--scalability)
 
 ---
-
+<a id="project-overview"></a>
 ## 🎯 Project Overview
 
 ### What is AgroChain?
@@ -43,7 +43,7 @@ AgroChain solves these problems through:
 - **Decentralized verification** eliminating single points of failure
 
 ---
-
+<a id="architecture-deep-dive"></a>
 ## 🏗️ Architecture Deep Dive
 
 ### System Architecture Diagram
@@ -88,8 +88,10 @@ AgroChain solves these problems through:
    - CDN for static asset delivery
 
 ---
-
+<a id="technology-stack-breakdown"></a>
 ## 💻 Technology Stack Breakdown
+
+<a id="frontend-analysis"></a>
 
 ### Frontend Technologies
 
@@ -340,7 +342,7 @@ export class BlockchainService {
 - **Deterministic transactions** for consistent testing
 
 ---
-
+<a id="frontend-analysis"></a>
 ## 🎨 Frontend Analysis
 
 ### Component Architecture
@@ -494,7 +496,7 @@ const handleCropUpdate = useCallback((cropId: string, updates: Partial<Crop>) =>
 - **Image optimization** with WebP format
 
 ---
-
+<a id="backend-services"></a>
 ## 🛠️ Backend Services
 
 ### Firebase Architecture
@@ -642,7 +644,7 @@ export const createTransaction = async (transactionData: Omit<TransactionData, '
 ```
 
 ---
-
+<a id="blockchain-integration"></a>
 ## ⛓️ Blockchain Integration
 
 ### Smart Contract Architecture
@@ -804,7 +806,7 @@ graph TD
 ```
 
 ---
-
+<a id="qr-code-system"></a>
 ## 📱 QR Code System
 
 ### QR Code Service Architecture
@@ -1019,7 +1021,7 @@ const fetchProductFromBlockchain = async (productId: string) => {
 ```
 
 ---
-
+<a id="user-authentication--roles"></a>
 ## 👥 User Authentication & Roles
 
 ### Role-Based Access Control (RBAC)
@@ -1232,7 +1234,7 @@ const handleLogin = (email: string, password: string) => {
 ```
 
 ---
-
+<a id="data-flow--state-management"></a>
 ## 🔄 Data Flow & State Management
 
 ### Application State Architecture
@@ -1482,7 +1484,7 @@ const sanitizeInput = (input: string): string => {
     .substring(0, 1000); // Limit input length
 };
 ```
-
+<a id="security-implementation"></a>
 #### Authentication Security
 ```typescript
 // Secure authentication state management
@@ -1750,7 +1752,7 @@ const executeBlockchainTransaction = async (
 ```
 
 ---
-
+<a id="deployment-architecture"></a>
 ## 🚀 Deployment Architecture
 
 ### Firebase Hosting Configuration
@@ -1985,7 +1987,7 @@ export default defineConfig({
 ```
 
 ---
-
+<a id="feature-by-feature-analysis"></a>
 ## 🔍 Feature-by-Feature Analysis
 
 ### 1. QR Code Generation & Scanning System
@@ -2152,7 +2154,7 @@ const handleSignup = (formData: any) => {
 **Current State**: English by default, translation keys defined, ready for localization
 
 ---
-
+<a id="code-quality--best-practices"></a>
 ## 📊 Code Quality & Best Practices
 
 ### TypeScript Implementation
@@ -2280,7 +2282,7 @@ const registerCropOnBlockchain = async (crop: BlockchainCrop) => {
 - **Environment Variables**: Sensitive data properly managed
 
 ---
-
+<a id="performance--optimization"></a>
 ## ⚡ Performance & Optimization
 
 ### Bundle Analysis
@@ -2349,7 +2351,7 @@ const result = await measurePerformance('Blockchain Registration', () =>
 ```
 
 ---
-
+<a id="testing--quality-assurance"></a>
 ## 🧪 Testing & Quality Assurance
 
 ### Manual Testing Checklist
@@ -2431,6 +2433,7 @@ const result = await measurePerformance('Blockchain Registration', () =>
 
 ---
 
+<a id="maintenance--scalability"></a>
 ## 🔧 Maintenance & Scalability
 
 ### Code Maintainability Score: Excellent
