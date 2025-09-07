@@ -1,4 +1,4 @@
-# 🌾 AgroChain: The Complete A-Z Documentation
+# 🌾 AgroChain: The Complete A-Z Guide
 
 ## 📋 Table of Contents
 
